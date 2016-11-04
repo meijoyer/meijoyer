@@ -17,7 +17,7 @@
 	document.getElementById('button').onclick=function(){
 		var num;
 		document.getElementById('aqi-display').innerHTML=isNaN(
-			num = parseInt(document.getElementById('aqi-input').value)?"请输入数字"：num;  
+			num = parseInt(document.getElementById('aqi-input').value))?"请输入数字"：num;  
   }
   })();
 </script>
